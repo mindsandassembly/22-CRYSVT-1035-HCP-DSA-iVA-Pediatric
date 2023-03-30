@@ -285,10 +285,16 @@ button {
   left: -122px;
   top: 301px;
 }
+.cdc-i { 
+  position: absolute;
+  top: 680px;
+  width: 34%;
+  margin-left: 122px;
+}
 .t-cop { 
   width: 892px;
   position: absolute;
-  top: 716px;
+  top: 724px;
   margin-left: 122px;
 }
 .t-cop2 { 
