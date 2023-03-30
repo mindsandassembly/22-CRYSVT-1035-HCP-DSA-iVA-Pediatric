@@ -332,7 +332,9 @@ div[id$="wrapper_text"] {
   width: 50%;
 }
 .eighttwo {
-  width:80%;
+  width: 85%;
+  margin-top: 21px;
+  margin-left: -87px;
 }
 .fourtw {
   width: 96%;
@@ -374,6 +376,7 @@ div[id$="wrapper_text"] {
 }
 .full-im {
   width:99.5%;
+  height:100%;
 }
 .char-ico { 
   width: 439px;
