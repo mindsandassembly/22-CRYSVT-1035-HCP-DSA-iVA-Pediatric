@@ -150,8 +150,9 @@ button {
   width:20%;
 }
 .h112 { 
-  width:41%;
+  width: 41%;
   margin-left: 20px;
+  margin-top: 13px;
 }
 .prior {
   position: absolute;
@@ -343,14 +344,15 @@ div[id$="wrapper_text"] {
   margin-top: 25px;
 }
 .content {
-  height: 848px;
+  height: 865px;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
-  background-repeat: repeat-y;
-  background-position: 1022px;
+  background-repeat: no-repeat;
+  background-position: 1017px;
   width: 1207px;
   margin: 0 auto;
-  position:relative;
+  position: relative;
+  background-size: contain;
 }
 .tcopy2 { 
   width: 907px;
@@ -381,22 +383,25 @@ div[id$="wrapper_text"] {
   margin-top: 20px;
 }
 .content-hp { 
-  width: 100% !important
+  width: 100% !important;
+  height:920px;
 }
 .video { 
   float: right;
-  width: 873px;
-  margin-right: 80px;
+  width: 64.8%;
+  margin-right: 37px;
 }
 .emily { 
   position: absolute;
   top: 6%;
-  width: 38%;
+  width: 461px;
   right: 130px;
+  height:608px;
+  right:72px;
 }
 .bottom-cta { 
   width: 80%;
-  margin-top: 185px;
+  margin-top: 105px;
 }
 .f-hd { 
   float: left;
@@ -491,6 +496,7 @@ footer {
 }
 .ttmod { 
   margin-left:36px;
+  margin-top:70px;
 }
 .ttpag { 
   margin-top: 16px;
