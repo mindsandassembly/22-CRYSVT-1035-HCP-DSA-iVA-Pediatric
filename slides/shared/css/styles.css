@@ -56,18 +56,10 @@ header {
   height: 100%;
   background-color: #eee;
 }
-
-footer {
-  height: 90px;
-  width: 100%;
-  background-color: #ddd;
-}
-
 .bottom-nav {
   height: 100%;
   float: right;
 }
-
 .bottom-nav ul {
   list-style: none;
   margin: 0;
@@ -454,10 +446,11 @@ div[id$="wrapper_text"] {
 }
 footer {
   height: 90px;
-  width: 1207px;
+  width: 100%;
   margin: 0 auto;
   background-color: #FFFFFF;
-  border: 1.5px solid rgba(115, 123, 143, .5);
+  border-top: 1.5px solid rgba(115, 123, 143, .5);
+  border-bottom: 1.5px solid rgba(115, 123, 143, .5);
 }
 .bottom-nav {
   height: 100%;
@@ -475,6 +468,7 @@ footer {
 }
 .bottom-nav li.one { 
   width: 282px;
+  margin-right: 57px;
 }
 .bottom-nav li.one img { 
   margin-top: 20px;
