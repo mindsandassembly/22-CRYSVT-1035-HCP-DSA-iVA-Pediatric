@@ -113,7 +113,8 @@ body {
   margin: auto;
   border: 1px solid #888;
   width: 814px;
-  height:514px;
+  min-height:514px;
+  height:fit-content;
   position:relative;
 }
 .charts { 
@@ -287,16 +288,18 @@ button {
   top: 301px;
 }
 .cdc-i { 
-  position: absolute;
+  float: left;
   top: 680px;
-  width: 34%;
-  margin-left: 122px;
+  width: 645px;
+  margin-left: 42px;
+  margin-top: 12px;
 }
 .t-cop { 
+  float: left;
   width: 892px;
-  position: absolute;
   top: 724px;
-  margin-left: 122px;
+  margin-left: 44px;
+  margin-top: 25px;
 }
 .t-cop2 { 
   width: 51%;
@@ -388,7 +391,7 @@ div[id$="wrapper_text"] {
 .tcopy2 { 
   width: 907px;
   position: absolute;
-  top: 701px;
+  top: 678px;
   margin-left: 125px;
 }
 .full-im {
@@ -416,11 +419,11 @@ div[id$="wrapper_text"] {
 }
 .content-hp { 
   width: 100% !important;
-  height:920px;
+  height:930px;
 }
 .video { 
   float: right;
-  width: 64.8%;
+  width: 65.8%;
   margin-right: 37px;
 }
 .emily { 
@@ -472,6 +475,9 @@ div[id$="wrapper_text"] {
 }
 .top-img { 
   width:60%;
+}
+.phex { 
+  width:80% !important;
 }
 .btn { 
   width:70%;
