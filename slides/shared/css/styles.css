@@ -183,7 +183,7 @@ button {
   position: absolute;
   top: 332px;
   width: 25%;
-  right: 7%;
+  right: 0%;
 }
 .mod-6 { 
   margin-left:23px;
@@ -285,7 +285,8 @@ button {
   padding-bottom: 40px;
 }
 .pop5 { 
-  width: 97%;
+  width: 97% !important;
+  margin-top: 10px;
 }
 .nxt {
   margin-left: 6%;
@@ -316,12 +317,13 @@ button {
   margin-left: 122px;
 }
 .e-top {
-  width: 70%;
+  width: 65%;
   margin-top: 40px;
   margin-left: 30px;
 }
 .f-pop { 
-  width:70%;
+  width: 70%;
+  margin-left: -56px;
 }
 .whatcauses {
   width: 69%;
