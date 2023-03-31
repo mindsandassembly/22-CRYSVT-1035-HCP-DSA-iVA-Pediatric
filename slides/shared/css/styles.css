@@ -226,9 +226,14 @@ button {
 }
 .dots54 { 
   margin-right: 6px;
+  margin-top:-2px;
 }
 .dots5 { 
   margin-right: -13px;
+}
+.fiv4pop { 
+  width: 60% !important;
+  margin-top: 10px;
 }
 .ff-pag { 
   margin-top: -3px !important;
