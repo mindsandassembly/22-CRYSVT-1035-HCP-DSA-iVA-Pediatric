@@ -150,7 +150,7 @@ body {
 }
 header {
   height: 70px;
-  border-bottom: 1.5px solid rgba(115, 123, 143, .5);
+  border-bottom: 2px solid rgba(115, 123, 143, .5);
   background: #f6f6f6;
   width: 1207px;
   margin: 0 auto;
