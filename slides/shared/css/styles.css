@@ -117,6 +117,9 @@ body {
   height:fit-content;
   position:relative;
 }
+/* modal sizes */
+
+/* end modals */
 .charts { 
   width: 76% !important;
   margin-top: 20px;
@@ -371,7 +374,7 @@ div[id$="wrapper_text"] {
   width:100%;
 }
 .lhundy { 
-  width:84%;
+  width:84% !important;
 }
 .three-t { 
   width: 100%;
