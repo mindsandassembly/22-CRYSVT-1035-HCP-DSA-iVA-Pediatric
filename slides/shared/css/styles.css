@@ -273,9 +273,12 @@ button {
   margin-left: 42px;
 }
 .tp-burden-im { 
-  width: 68.5% !important;
   margin-left: 41px !important;
   margin-top: 50px;
+  width: 850px;
+  max-width: 850px;
+  height: 193px;
+  max-height: 193px;
 }
 .stdy-i-btn { 
   width: 47%;
