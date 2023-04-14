@@ -74,7 +74,7 @@ header {
   display: block;
   width: 200px;
   height: 90px;
-  line-height: 90px;
+  /* line-height: 90px; */
   text-align: center;
   background-color: #aaa;
   color: white;
@@ -415,7 +415,7 @@ div[id$="wrapper_text"] {
   margin-top: 25px;
 }
 .content {
-  height: 865px;
+  height: 864px;
   background-color: #f6f6f6;
   background-image: url(../images/vector.png);
   background-repeat: no-repeat;
@@ -531,6 +531,7 @@ footer {
   background-color: #FFFFFF;
   border-top: 1.5px solid rgba(115, 123, 143, .5);
   border-bottom: 1.5px solid rgba(115, 123, 143, .5);
+  overflow:hidden;
 }
 .bottom-nav {
   height: 100%;
