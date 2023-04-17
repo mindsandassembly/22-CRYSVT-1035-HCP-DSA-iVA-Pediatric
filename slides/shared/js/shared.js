@@ -1,4 +1,13 @@
 window.addEventListener('load', function() {
+  if (document.documentElement.clientWidth < 1365) {
+    document
+      .querySelector("meta[name=viewport]")
+      .setAttribute('content', 'initial-scale=0.8');
+
+      console.log('Adding initial scale');
+      let scale = document.querySelector("meta[name=viewport]").getAttribute('content');
+      console.log(scale)
+  };
 
   var modals = document.querySelectorAll(".modal");
   var buttons = document.querySelectorAll(".modal-button");
