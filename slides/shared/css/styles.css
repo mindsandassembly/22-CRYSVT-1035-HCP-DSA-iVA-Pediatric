@@ -29,6 +29,12 @@ header {
   background-color: #ddd;
 }
 
+/* modal sizes */
+
+
+
+/* end modal sizes */
+
 .top-nav {
   width: 150px;
   height: 100%;
@@ -350,7 +356,7 @@ button {
 }
 .f-pop { 
   width: 70%;
-  margin-left: -56px;
+  margin-left: -43px;
 }
 .whatcauses {
   width: 69%;
