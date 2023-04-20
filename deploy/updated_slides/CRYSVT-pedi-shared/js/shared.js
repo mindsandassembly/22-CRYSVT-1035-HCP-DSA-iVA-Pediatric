@@ -1,16 +1,15 @@
 window.addEventListener('load', function() {
+  // var metaTag;
   if (document.documentElement.clientWidth < 1360) {
-    // document.querySelector("meta[name=viewport]").setAttribute('content', 'initial-scale=0.8');
+      // alert(document.documentElement.clientWidth);
+      let metaTag = document.getElementsByTagName('meta');
 
-      var metaTag=document.createElement('meta');
-      metaTag.name = "viewport"
-      metaTag.content = "width=device-width, initial-scale=.8"
-      document.getElementsByTagName('head')[0].appendChild(metaTag);
+      // metaTag=document.createElement('meta');
+      // metaTag.name = "viewport";
+      metaTag.content = "width=device-width, initial-scale=.8";
+      // document.getElementsByTagName('head')[0].appendChild(metaTag);
 
-      console.log('Adding initial scale');
-      // let scale = document.querySelector("meta[name=viewport]").getAttribute('content');
-      // console.log(scale)
-  };
+  } 
 
   var modals = document.querySelectorAll(".modal");
   var buttons = document.querySelectorAll(".modal-button");
@@ -46,5 +45,4 @@ window.addEventListener('load', function() {
           });
       });
   }
-
 });
