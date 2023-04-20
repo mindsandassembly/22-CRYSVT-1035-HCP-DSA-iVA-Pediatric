@@ -1,6 +1,5 @@
 window.addEventListener('load', function() {
   if (document.documentElement.clientWidth < 1360) {
-    // document.querySelector("meta[name=viewport]").setAttribute('content', 'initial-scale=0.8');
 
       var metaTag=document.createElement('meta');
       metaTag.name = "viewport"
@@ -8,8 +7,6 @@ window.addEventListener('load', function() {
       document.getElementsByTagName('head')[0].appendChild(metaTag);
 
       console.log('Adding initial scale');
-      // let scale = document.querySelector("meta[name=viewport]").getAttribute('content');
-      // console.log(scale)
   };
 
   var modals = document.querySelectorAll(".modal");

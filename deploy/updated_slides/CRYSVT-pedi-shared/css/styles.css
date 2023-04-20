@@ -350,7 +350,7 @@ button {
 }
 .f-pop { 
   width: 70%;
-  margin-left: -56px;
+  margin-left: -43px;
 }
 .whatcauses {
   width: 69%;
@@ -359,6 +359,10 @@ button {
 }
 .mod-t { 
   margin-left: -23px;
+}
+.mod-21 { 
+  width: 811px;
+  height: 677px;
 }
 ul, li { 
   list-style:none;
@@ -514,15 +518,23 @@ div[id$="wrapper_text"] {
   width:60%;
 }
 .phex { 
-  width:80% !important;
+  width:99% !important;
+  padding-top:10px;
+}
+.mod-31 { 
+  width: 45% !important;
+  padding-top: 20px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom:10px;
 }
 .btn { 
   width:70%;
 }
 .d-na { 
   margin-top: 80px;
-  margin-left: 100px !important;
-  float: left;
+  width: 78% !important;
+  padding: 4px;
 }
 footer {
   height: 90px;
