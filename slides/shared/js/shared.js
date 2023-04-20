@@ -1,16 +1,15 @@
 window.addEventListener('load', function() {
-  var metaTag;
-  if (document.documentElement.clientWidth < 1350) {
+  // var metaTag;
+  if (document.documentElement.clientWidth < 1360) {
+      // alert(document.documentElement.clientWidth);
+      let metaTag = document.getElementsByTagName('meta');
 
-      metaTag=document.createElement('meta');
-      metaTag.name = "viewport";
+      // metaTag=document.createElement('meta');
+      // metaTag.name = "viewport";
       metaTag.content = "width=device-width, initial-scale=.8";
-      document.getElementsByTagName('head')[0].appendChild(metaTag);
+      // document.getElementsByTagName('head')[0].appendChild(metaTag);
 
-      console.log('Adding initial scale');
-  } else if (metaTag){ 
-      metaTag.content = "width=device-width, initial-scale=1";
-  }
+  } 
 
   var modals = document.querySelectorAll(".modal");
   var buttons = document.querySelectorAll(".modal-button");
@@ -46,5 +45,4 @@ window.addEventListener('load', function() {
           });
       });
   }
-
 });
