@@ -142,9 +142,11 @@ body {
   padding: 13px;
   position: absolute;
   right: 0px;
+  z-index:+1;
 }
 .close img { 
-  width:100%;
+  width:35px !important;
+  height:35px !important;
 }
 .close:hover,
 .close:focus {
@@ -462,10 +464,21 @@ div[id$="wrapper_text"] {
   width: 100% !important;
   height:930px;
 }
+.modal-content-vid { 
+  width:100%;
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  position:relative;
+}
 .video { 
   float: right;
   width: 65.8%;
   margin-right: 37px;
+  margin-top:-9px;
+}
+.video img { 
+  float:right;
 }
 .emily { 
   position: absolute;
