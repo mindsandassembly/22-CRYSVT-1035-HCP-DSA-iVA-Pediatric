@@ -411,14 +411,22 @@ div[id$="wrapper_text"] {
   margin-top: 10px;
 }
 .hundy { 
-  width:100%;
+  width:100% !important;
 }
 .lhundy { 
   width:84% !important;
 }
+.lrtpd { 
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:70px;
+}
 .three-t { 
   width: 100%;
   margin-top: 25px;
+}
+.vhght { 
+  min-height:unset !important;
 }
 .content {
   height: 864px;
