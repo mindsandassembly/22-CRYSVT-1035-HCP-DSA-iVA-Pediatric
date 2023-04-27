@@ -425,6 +425,10 @@ div[id$="wrapper_text"] {
   width: 100%;
   margin-top: 25px;
 }
+.f-sc { 
+  width: 1140px !important;
+  height: 797px !important;
+}
 .hng-im { 
   width: 1293px;
   margin-left: -81px;
