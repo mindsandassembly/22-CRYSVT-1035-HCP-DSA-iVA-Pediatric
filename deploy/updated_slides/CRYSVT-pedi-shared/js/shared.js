@@ -20,6 +20,10 @@ window.addEventListener('load', function() {
   buttons.forEach(function(button, index) {
     button.addEventListener("click", function() {
       modals[index].style.display = "block";
+      let vid = document.getElementById('vid');
+      if (vid) { 
+        vid.play();
+      }
     });
   });
 

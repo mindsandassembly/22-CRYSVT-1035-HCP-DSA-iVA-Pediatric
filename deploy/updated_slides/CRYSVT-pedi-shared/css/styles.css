@@ -142,9 +142,11 @@ body {
   padding: 13px;
   position: absolute;
   right: 0px;
+  z-index:+1;
 }
 .close img { 
-  width:100%;
+  width:35px !important;
+  height:35px !important;
 }
 .close:hover,
 .close:focus {
@@ -210,7 +212,7 @@ button {
 .survey-i-3 { 
   width: 23%;
   float: right;
-  margin-top: -345px;
+  margin-top: -300px;
   margin-right: 40px;
 }
 .svny { 
@@ -349,8 +351,8 @@ button {
   margin-left: 30px;
 }
 .f-pop { 
-  width: 70%;
-  margin-left: -43px;
+  width: 64%;
+  margin-left: -100px;
 }
 .whatcauses {
   width: 69%;
@@ -409,14 +411,31 @@ div[id$="wrapper_text"] {
   margin-top: 10px;
 }
 .hundy { 
-  width:100%;
+  width:100% !important;
 }
 .lhundy { 
   width:84% !important;
 }
+.lrtpd { 
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:70px;
+}
 .three-t { 
   width: 100%;
   margin-top: 25px;
+}
+.f-sc { 
+  width: 1140px !important;
+  height: 797px !important;
+}
+.hng-im { 
+  width: 1293px;
+  margin-left: -81px;
+  height: 864px;
+}
+.vhght { 
+  min-height:unset !important;
 }
 .content {
   height: 864px;
@@ -436,7 +455,7 @@ div[id$="wrapper_text"] {
   margin-left: 125px;
 }
 .full-im {
-  width:99.5%;
+  width:99.5% !important;
   height:100%;
 }
 .char-ico { 
@@ -462,10 +481,21 @@ div[id$="wrapper_text"] {
   width: 100% !important;
   height:930px;
 }
+.modal-content-vid { 
+  width:100%;
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  position:relative;
+}
 .video { 
   float: right;
   width: 65.8%;
   margin-right: 37px;
+  margin-top:-9px;
+}
+.video img { 
+  float:right;
 }
 .emily { 
   position: absolute;
@@ -523,7 +553,7 @@ div[id$="wrapper_text"] {
 }
 .mod-31 { 
   width: 45% !important;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-right: 32px;
   padding-left: 32px;
   padding-bottom:10px;
@@ -535,6 +565,13 @@ div[id$="wrapper_text"] {
   margin-top: 80px;
   width: 78% !important;
   padding: 4px;
+  padding-bottom:120px;
+}
+.tredos {
+  width: 100% !important;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 40px;
 }
 footer {
   height: 90px;
@@ -583,7 +620,7 @@ footer {
   /* width: 14% !important; */
 }
 .ttmod { 
-  margin-left:36px;
+  margin-left:25px;
   margin-top:70px;
 }
 .ttpag { 
