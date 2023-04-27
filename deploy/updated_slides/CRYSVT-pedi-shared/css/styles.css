@@ -108,6 +108,9 @@ body {
   overflow: auto;
   background-color: rgba(52, 62, 89, .75);
 }
+.modal-v { 
+  padding-top:100px;
+}
 .modal-content {
   background-color: #fefefe;
   margin: auto;

@@ -108,6 +108,9 @@ body {
   overflow: auto;
   background-color: rgba(52, 62, 89, .75);
 }
+.modal-v { 
+  padding-top:100px;
+}
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -488,6 +491,10 @@ div[id$="wrapper_text"] {
   border: 1px solid #888;
   position:relative;
 }
+#vid {
+  width: 100%;
+  vertical-align: middle;
+}
 .video { 
   float: right;
   width: 65.8%;
@@ -508,6 +515,7 @@ div[id$="wrapper_text"] {
 .bottom-cta { 
   width: 80%;
   margin-top: 105px;
+  margin-left: -186px;
 }
 .f-hd { 
   float: left;
