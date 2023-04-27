@@ -488,6 +488,10 @@ div[id$="wrapper_text"] {
   border: 1px solid #888;
   position:relative;
 }
+#vid {
+  width: 100%;
+  vertical-align: middle;
+}
 .video { 
   float: right;
   width: 65.8%;
