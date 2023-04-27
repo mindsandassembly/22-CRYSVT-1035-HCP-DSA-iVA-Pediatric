@@ -433,8 +433,7 @@ div[id$="wrapper_text"] {
   height: 797px !important;
 }
 .hng-im { 
-  width: 1293px;
-  margin-left: -81px;
+  margin-left: -120px;
   height: 864px;
 }
 .vhght { 
@@ -515,6 +514,7 @@ div[id$="wrapper_text"] {
 .bottom-cta { 
   width: 80%;
   margin-top: 105px;
+  margin-left: -186px;
 }
 .f-hd { 
   float: left;
