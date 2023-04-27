@@ -425,6 +425,11 @@ div[id$="wrapper_text"] {
   width: 100%;
   margin-top: 25px;
 }
+.hng-im { 
+  width: 1293px;
+  margin-left: -81px;
+  height: 864px;
+}
 .vhght { 
   min-height:unset !important;
 }
