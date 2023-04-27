@@ -536,7 +536,7 @@ div[id$="wrapper_text"] {
 }
 .mod-31 { 
   width: 45% !important;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-right: 32px;
   padding-left: 32px;
   padding-bottom:10px;
