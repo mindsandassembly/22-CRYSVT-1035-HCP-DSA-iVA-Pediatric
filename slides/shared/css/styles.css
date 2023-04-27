@@ -451,7 +451,7 @@ div[id$="wrapper_text"] {
   margin-left: 125px;
 }
 .full-im {
-  width:99.5%;
+  width:99.5% !important;
   height:100%;
 }
 .char-ico { 
