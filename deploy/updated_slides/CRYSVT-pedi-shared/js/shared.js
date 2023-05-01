@@ -1,16 +1,13 @@
 window.addEventListener('load', function() {
-  // var metaTag;
- if (document.documentElement.clientWidth < 1194) {
-     let metaTag = document.getElementsByTagName('meta');
-<<<<<<< HEAD
-        metaTag.content = "width=device-width, initial-scale=.7";
-=======
-        metaTag.content = "width=device-width, initial-scale=.5";
->>>>>>> 6d1f128a568274d099a5bc4986f8469854feb2ae
-  }
-  if (document.documentElement.clientWidth < 1360) {
-      let metaTag = document.getElementsByTagName('meta');
-        metaTag.content = "width=device-width, initial-scale=.8";
+
+  let metaTag = document.querySelector('meta[name="viewport"]');
+  if (metaTag) {
+    const clientWidth = document.documentElement.clientWidth;
+    if (clientWidth <= 1194) {
+      metaTag.setAttribute("content", "width=device-width, initial-scale=.8");
+    } else if (clientWidth < 1360) {
+      metaTag.setAttribute("content", "width=device-width, initial-scale=.8");
+    }
   }
 
   var modals = document.querySelectorAll(".modal");
