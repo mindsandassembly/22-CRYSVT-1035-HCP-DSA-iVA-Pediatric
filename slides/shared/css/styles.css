@@ -191,7 +191,12 @@ button {
   right: 0%;
 }
 .fivfivpop{ 
+  width: 80%;
   margin-left: 51px;
+}
+.lst { 
+  float: right;
+  width: 62%;
 }
 .mod-6 { 
   margin-left:23px;
