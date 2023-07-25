@@ -1,12 +1,15 @@
 window.addEventListener('load', function() {
 
-  let metaTag = document.querySelector('meta[name="viewport"]');
+  let metaTag = document.querySelector("meta[name=viewport]");
+  // console.log(metaTag);
   if (metaTag) {
     const clientWidth = document.documentElement.clientWidth;
     if (clientWidth <= 1194) {
-      metaTag.setAttribute("content", "width=device-width, initial-scale=.8");
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8, user-scalable=no');
     } else if (clientWidth < 1360) {
-      metaTag.setAttribute("content", "width=device-width, initial-scale=.8");
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=.8, user-scalable=no');
+    } else { 
+      metaTag.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
     }
   }
 
@@ -21,6 +24,9 @@ window.addEventListener('load', function() {
       modals[index].style.display = "block";
       let vid = document.getElementById('vid');
       if (vid) { 
+        vid.pause();
+        vid.currentTime = 0;
+        vid.load();
         vid.play();
       }
     });

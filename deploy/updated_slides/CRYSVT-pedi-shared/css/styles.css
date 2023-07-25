@@ -191,7 +191,12 @@ button {
   right: 0%;
 }
 .fivfivpop{ 
-  margin-left: 51px;
+  width: 80%;
+  /* margin-left: 51px; */
+}
+.lst { 
+  float: right;
+  width: 62%;
 }
 .mod-6 { 
   margin-left:23px;
@@ -209,8 +214,11 @@ button {
   margin-right: -7px;
   width: 45%;
 }
+.t-60 { 
+  width: 60%;
+}
 .t3top-img { 
-  width: 62%;
+  width: 102%;
   float: left;
   margin-left: 23px;
   margin-top: 12px;
@@ -357,8 +365,9 @@ button {
   margin-left: 30px;
 }
 .f-pop { 
-  width: 64%;
-  margin-left: -100px;
+  width: 50%;
+  margin-left: -791px;
+  position: absolute;
 }
 .whatcauses {
   width: 69%;
