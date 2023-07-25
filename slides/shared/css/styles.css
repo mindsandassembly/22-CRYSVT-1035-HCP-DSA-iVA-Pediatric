@@ -214,8 +214,11 @@ button {
   margin-right: -7px;
   width: 45%;
 }
+.t-60 { 
+  width: 60%;
+}
 .t3top-img { 
-  width: 62%;
+  width: 102%;
   float: left;
   margin-left: 23px;
   margin-top: 12px;

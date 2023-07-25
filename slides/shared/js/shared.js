@@ -24,6 +24,9 @@ window.addEventListener('load', function() {
       modals[index].style.display = "block";
       let vid = document.getElementById('vid');
       if (vid) { 
+        vid.pause();
+        vid.currentTime = 0;
+        vid.load();
         vid.play();
       }
     });
