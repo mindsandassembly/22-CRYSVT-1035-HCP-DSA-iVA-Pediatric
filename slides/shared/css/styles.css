@@ -362,8 +362,9 @@ button {
   margin-left: 30px;
 }
 .f-pop { 
-  width: 64%;
-  margin-left: -100px;
+  width: 50%;
+  margin-left: -791px;
+  position: absolute;
 }
 .whatcauses {
   width: 69%;
